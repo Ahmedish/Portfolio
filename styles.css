@@ -41,6 +41,7 @@ body{
     width:85%;
     border-radius: 60%;
     height: 85%;
+    border: 8px solid lightseagreen;
 
 }
 .profile-content-wrapper{
@@ -49,4 +50,7 @@ body{
 }
 .profile-content-wrapper h1{
     color:lightseagreen;
+}
+p {
+    font-size: large;
 }
