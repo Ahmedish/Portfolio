@@ -37,10 +37,16 @@ body{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.profile-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .profile-image-wrapper img{
-    width:85%;
+    width:80%;
     border-radius: 60%;
-    height: 85%;
+    height: 80%;
     border: 8px solid lightseagreen;
 
 }
