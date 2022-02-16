@@ -1,61 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Ahmed Ishaque | Aspiring Software Engineer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+	<title>Ahmed Ishaque | Aspiring Software Engineer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 </head>
 
-<body style="background-color:#212529">
-    <div class="container">
-        <div class="nav-wrapper">
-            <div class="right-side">
-                <div class="brand">
-                    <div style="color:white">AHMED ISHAQUE</div>
-                </div>
-            </div>
+<body class="is-preload">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
 
-            <div class="left-side">
+			<!-- Header -->
+			<header id="header">
+				<h1>Ahmed Ishaque</h1>
+				<p>Aspiring Software Engineer</p>
+				<nav>
+					<ul>
+						<li><a href="https://www.linkedin.com/in/ahmed-ishaque-a6a51b1b5/"
+								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Ahmedish" class="icon brands fa-github"><span
+									class="label">Github</span></a></li>
+						<li><a href="mailto: ahmedishaque246@gmail.com" class="icon solid fa-envelope"><span
+									class="label">Email</span></a></li>
+						<li><a href="https://drive.google.com/file/d/1hT22Bq-pkQiLevZ0sB524X62zPnd4xb2/view?usp=sharing"
+								class="icon solid fa-paperclip"><span class="label">Resume</span></a></li>
+					</ul>
+				</nav>
+			</header>
 
-                <div class="nav-link-wrapper">
-                    <a href="https://www.linkedin.com/in/ahmed-ishaque-a6a51b1b5/">LinkedIn</a>
-                </div>
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright"> Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+			</footer>
 
-                <div class="nav-link-wrapper">
-                    <a href="https://github.com/Ahmedish">Github</a>
-                </div>
-
-                <div class="nav-link-wrapper">
-                    <a
-                        href="https://drive.google.com/file/d/1hT22Bq-pkQiLevZ0sB524X62zPnd4xb2/view?usp=sharing">Resume</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-wrapper">
-            <div class="two-column-wrapper">
-                <div class="profile-image-wrapper">
-                    <img src="images/IMG_1229.jpg" class="headshot">
-                </div>
-                <div class="profile-content-wrapper">
-                    <h1>Ahmed Ishaque | Aspiring Software Engineer</h1>
-
-                    <p style="color:white">Hi! I'm a sophomore at Rutgers University–New Brunswick studying Computer
-                        Science. Currently, I am an incoming Software Engineer Intern at Google for Summer 2022. </p>
-                    <p style="color:white">I first learned how to program at the age of 14 when I took an introductory
-                        Computer Science
-                        course at my high school. Over the years, I have made numerous projects in C++, Java, and
-                        Python.</p>
-                    <p style="color:white">More recently, I have completed relevant coursework in Data Structures and
-                        Algorithms, Calculus 2, and Linear Algebra. From May to August 2021 I worked at Google as a STEP
-                        Intern and developed a full-stack web application using Java, TypeScript, HTML, and CSS. Feel
-                        free to connect with me using the links above!</p>
-                </div>
-            </div>
-        </div>
-    </div>
+		</div>
+	</div>
+	<script>
+		window.onload = function () { document.body.classList.remove('is-preload'); }
+		window.ontouchmove = function () { return false; }
+		window.onorientationchange = function () { document.body.scrollTop = 0; }
+	</script>
 </body>
 
 </html>
